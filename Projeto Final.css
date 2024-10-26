@@ -1,0 +1,72 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    
+}
+#hb{
+    margin-left: 0px;
+}
+#ab{
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+header a:hover{
+    color: aliceblue;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    display: inline;
+    margin: 20px;
+    
+}
+img{
+    width: 100px;
+    height:auto ;
+}
+header{
+    background-color: lightblue;
+    font-size: large;
+    
+}
+input{
+    height: 20px;
+    border: none;
+}
+#b{
+    height: 20px;
+    border: none;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+.card1{
+    margin: 20px;
+    height:200px;
+    width:200px;
+}
+.card2{
+    margin: 20px;
+}
+.car3{
+    margin: 20px;
+}
+.card4{
+    margin: 20px;
+}
+.card5{
+    margin: 20px;
+}
